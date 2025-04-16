@@ -59,7 +59,7 @@ const margine = (width - gridw) * 0.5;
     // Disegna il rettangolo centrato sulla posizione (x, y)
     context.beginPath();
     context.rect(- w/2, - h/2, w, h);
-    context.fillStyle = 'rgba(0, ' + noisepos * 255 + ', 200,' + (noisepos + 0.2) +' )';
+    context.fillStyle = 'rgba(' + noisepos * 255 + ', ' + noisepos * 255 + ', 200,' + (noisepos + 0.2) +' )';
     //context.lineWidth = 1;
     context.fill();
         // Ripristina lo stato del contesto
